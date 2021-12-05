@@ -5,12 +5,12 @@ import "firebase/compat/firestore"
 
 
 const firebaseConfig = {
-    apiKey: "AIzaSyBjHevSy_ZkhW-xXrsrKSalOIpzAJSihgY",
-    authDomain: "signal-clone-a4ece.firebaseapp.com",
+    apiKey: "{Your Firebase API Key}",
+    authDomain: "{Your Firebase Project Name}",
     projectId: "signal-clone-a4ece",
-    storageBucket: "signal-clone-a4ece.appspot.com",
-    messagingSenderId: "305405373797",
-    appId: "1:305405373797:web:8d8b52ec58b64f1fad058c"
+    storageBucket: "{Your Firebase Project Name}",
+    messagingSenderId: "305405373797895648353",
+    appId: "1:305405373797:web:8d8b52eec58bx64f1fad058cecx1xcy"
 };
 
 const app = firebase.initializeApp(firebaseConfig);
